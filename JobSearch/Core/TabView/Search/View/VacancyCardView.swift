@@ -36,6 +36,7 @@ struct VacancyCardView: View {
             
             Text(vacancy.title)
                 .font(.Title3)
+                .multilineTextAlignment(.leading)
             
             VStack(alignment: .leading, spacing: 4) {
                 Text(vacancy.address.town)
